@@ -18,9 +18,9 @@ from shapely.geometry import Polygon, Point
 
 # Source A (OSM):
 
-df_A = gp.read_file('<path to A>.shp')
+df_A = gp.read_file('/data/polygonss_hausdorff/A.shp')
 
-df_B = gp.read_file('<path to B>.shp')
+df_B = gp.read_file('/data/polygonss_hausdorff/B.shp')
   
 
 def hausdorff(df_A, df_B):
